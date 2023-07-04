@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: green;
+    height : 95%;
+    width: 95%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#canvas-main {
+    border: 2px solid black;
+    max-width: 100%;
+}
+
+#loading {
+    color: yellow;
+    size: 1em;
+}
+
+#info {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#titlebar {
+    color: black;
+    background: linear-gradient(red, white);
+}
+.panel {
+    border: 2px double grey;
+    background-color: rgb(59, 43, 43);
+
+    border-radius: 5px;
+}

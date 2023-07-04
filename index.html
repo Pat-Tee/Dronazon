@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Dronazon</title>
+</head>
+<body>
+    <div id="game">
+        <div id="titlebar">
+            <h1>DRONAZON</h1>
+        </div>
+        <div>
+            <canvas id="canvas-main"></canvas>
+        </div>
+        <h1 id="loading">. . . Loading . . .</h1>
+        <div id="info">
+            <div id="instruction" class="panel">
+                <p><span style="color: lightcoral;">TOUCH:</span> - Tap with second finger to drop</p>
+                <p><span style='color: lightcoral;'>KEYS:</span><span style="color: lightblue;">W, A, S, D</span> - Up, Left, Right, Down</p>
+                <p><span style="color: skyblue;">SPACE</span> - Drop Package</p>
+                <p><span style="color: lightblue;">ESCAPE</span> - Pause</p>
+            </div>
+            <div id="Menu" class="panel">
+                <button id="reload">Reload</button>
+                <button id="pause">Pause / Unpause</button>
+            </div>
+            <div id="data" class="panel">
+                <p id="timeStep"></p>
+                <p id="score"></p>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
